@@ -592,7 +592,8 @@
   // ═══════════════════════════════════════════════════════════════════
   function startHeroSpiral(){
     const spiral = document.getElementById('spiral');
-    if (!spiral) return;
+    if (!spiral || spiral.dataset.initialized) return;
+    spiral.dataset.initialized = 'true';
     const cardEls = [];
     let paused = false;
     let hoverPause = false;
