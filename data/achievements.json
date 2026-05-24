@@ -1,0 +1,36 @@
+[
+  {
+    "icon": "🎤",
+    "title": "Speaker · National Seminar on Indonesian National Education",
+    "institutions": [
+      { "name": "Universitas Pendidikan Indonesia (UPI) Bandung", "url": "https://upi.edu" }
+    ],
+    "year": "2018–2021"
+  },
+  {
+    "icon": "🌏",
+    "title": "Speaker · International Collaboration",
+    "institutions": [
+      { "name": "Naresuan University (Thailand)",        "url": "https://www.nu.ac.th" },
+      { "name": "Universitas Padjadjaran Bandung",       "url": "https://www.unpad.ac.id" }
+    ],
+    "separator": " × ",
+    "year": "2018–2021"
+  },
+  {
+    "icon": "🎙️",
+    "title": "Exclusive Interview · Doctoral Student NTU Singapore",
+    "institutions": [
+      { "name": "Nanyang Technological University", "url": "https://www.ntu.edu.sg" }
+    ],
+    "year": "2018–2021"
+  },
+  {
+    "icon": "🏅",
+    "title": "Best Social Activist · Gadjah Mada Award III",
+    "institutions": [
+      { "name": "Universitas Gadjah Mada", "url": "https://ugm.ac.id" }
+    ],
+    "year": "2015"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "name": "Hairul Umam",
+  "title": "S.Si., M.Si.",
+  "role": "Dosen Tetap STMIK Tazkia",
+  "tagline_keywords": ["Akademisi", "Educator", "Praktisi"],
+  "photo": "assets/photo.png",
+
+  "meta": [
+    { "label": "Lahir", "value": "Pamekasan, 1994" },
+    { "label": "Institusi", "value": "STMIK Tazkia", "url": "https://stmik.tazkia.ac.id" },
+    { "label": "Program Studi", "value": "Teknik Informatika", "url": "https://stmik.tazkia.ac.id" },
+    { "label": "Status", "value": "Dosen Tetap" }
+  ],
+
+  "intro": [
+    "Hairul Umam adalah dosen tetap pada Program Studi Teknik Informatika STMIK Tazkia. Lahir di Pamekasan, Madura, ia menyelesaikan pendidikan Sarjana Sains (S.Si.) di Program Studi Matematika <strong><a href=\"https://ugm.ac.id\" target=\"_blank\" rel=\"noopener\" class=\"inst-link\">Universitas Gadjah Mada (UGM)</a></strong> pada tahun 2017, kemudian melanjutkan pendidikan Magister Sains (M.Si.) di Program Studi Matematika <strong><a href=\"https://itb.ac.id\" target=\"_blank\" rel=\"noopener\" class=\"inst-link\">Institut Teknologi Bandung (ITB)</a></strong> dan lulus pada tahun 2021.",
+    "Dengan latar belakang matematika murni dari dua perguruan tinggi terkemuka di Indonesia, fokus risetnya kini diarahkan pada perpotongan antara <em>matematika, sains data, dan statistika terapan</em> — khususnya pemodelan probabilistik, algoritma graf, serta sistem informasi yang bermanfaat bagi masyarakat.",
+    "Selain mengabdi di dunia akademik, Hairul memiliki rekam jejak sebagai praktisi di bidang teknologi pendidikan dan kewirausahaan sosial. Ia juga aktif sebagai edukator digital melalui kanal YouTube dan komunitas Telegram, menjangkau ribuan pelajar dan pencari kerja di Indonesia."
+  ],
+
+  "pillars": [
+    { "icon": "🎓", "title": "Akademisi", "desc": "UGM · ITB",   "url": "https://scholar.google.com/citations?user=34JuTe4AAAAJ" },
+    { "icon": "🎥", "title": "Educator",  "desc": "Digital",     "url": "https://youtube.com/@Hairul-Umam-ID" },
+    { "icon": "💼", "title": "Praktisi",  "desc": "EdTech",      "url": "https://www.linkedin.com/in/hairulumam-/" },
+    { "icon": "🤝", "title": "Sosial",    "desc": "Komunitas",   "url": "https://t.me/Hairul_UmamID" }
+  ],
+
+  "metrics": [
+    { "value": 5,     "suffix": "",  "label": "Publikasi Ilmiah",    "source": "Google Scholar", "url": "https://scholar.google.com/citations?user=34JuTe4AAAAJ" },
+    { "value": 424,   "suffix": "",  "label": "Video Edukasi",       "source": "YouTube",        "url": "https://youtube.com/@Hairul-Umam-ID" },
+    { "value": 28000, "suffix": "+", "label": "Subscriber",          "source": "YouTube",        "url": "https://youtube.com/@Hairul-Umam-ID" },
+    { "value": 33000, "suffix": "+", "label": "Anggota Komunitas",   "source": "Telegram",       "url": "https://t.me/Hairul_UmamID" }
+  ],
+
+  "contact": {
+    "email": "hairul@stmik.tazkia.ac.id",
+    "institution": { "name": "STMIK Tazkia", "url": "https://stmik.tazkia.ac.id" },
+    "program": { "name": "Teknik Informatika", "url": "https://stmik.tazkia.ac.id" }
+  },
+
+  "socials": {
+    "scholar":  "https://scholar.google.com/citations?user=34JuTe4AAAAJ",
+    "youtube":  "https://youtube.com/@Hairul-Umam-ID",
+    "telegram": "https://t.me/Hairul_UmamID",
+    "linkedin": "https://www.linkedin.com/in/hairulumam-/"
+  }
+}
