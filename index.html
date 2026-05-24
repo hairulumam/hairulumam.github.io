@@ -10,57 +10,60 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/styles.css">
 </head>
-
 <body>
 
-<!-- ─── LOADING SCREEN ─── -->
-<div class="loading-screen" id="loadingScreen">
+<!-- CUSTOM CURSOR -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- LOADING SCREEN -->
+<div id="loadingScreen">
   <canvas id="loadCanvas"></canvas>
   <div class="load-progress" id="loadProgress">
-    <div class="load-bar"><div class="load-bar-fill" id="loadProgressBar"></div></div>
-    <div class="load-label">Loading portfolio · golden ratio</div>
+    <div class="load-progress-bar" id="loadProgressBar"></div>
   </div>
 </div>
 
-<!-- ─── CUSTOM CURSOR ─── -->
-<div class="cursor" id="cursor"></div>
-<div class="cursor-ring" id="cursor-ring"></div>
-
-<!-- ─── NAVBAR ─── -->
+<!-- NAV -->
 <nav id="navbar">
-  <a href="#hero" class="brand">H<em>·</em>U</a>
-  <ul>
+  <a href="#" class="nav-logo">H<em>·</em>U</a>
+  <ul class="nav-links">
     <li><a href="#about">Profil</a></li>
     <li><a href="#courses">Pengajaran</a></li>
     <li><a href="#research">Penelitian</a></li>
     <li><a href="#service">Pengabdian</a></li>
     <li><a href="#journey">Riwayat</a></li>
   </ul>
-  <a href="#contact" class="cta">Hubungi</a>
+  <a href="#contact" class="nav-cta">Hubungi</a>
 </nav>
 
-<!-- ─── HERO ─── -->
+<!-- HERO -->
 <section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
   <div class="hero-eyebrow-top">Portfolio Akademik</div>
-  <div class="spiral" id="spiral"></div>
+  <div id="spiral"></div>
   <div class="hero-signature">
-    <h1 id="heroSig"></h1>
-    <p class="hero-role" id="heroTagline"></p>
+    <div class="sig-name" id="heroSig"></div>
+    <div class="sig-role" id="heroTagline"></div>
   </div>
-  <div class="hero-eyebrow-bottom">Klik kartu untuk membuka</div>
+  <div class="hero-hint">Klik kartu untuk membuka</div>
+  <div class="scroll-down"><div class="line"></div></div>
 </section>
 
-<!-- ─── PROFIL ─── -->
+<!-- ABOUT -->
 <section id="about">
   <div class="about-grid">
     <div class="about-photo-wrap">
-      <img id="aboutPhoto" alt="" class="about-photo" />
+      <div class="about-photo">
+        <img id="aboutPhoto" alt="" />
+      </div>
       <div class="about-photo-meta" id="aboutMeta"></div>
     </div>
 
     <div class="about-intro">
       <p class="section-eyebrow">Tentang</p>
-      <h2>Dosen, peneliti, & <em>edukator digital</em></h2>
+      <h2>Akademisi dengan semangat <em>berbagi</em> dan jiwa <em>kewirausahaan</em>.</h2>
 
       <div id="aboutIntro"></div>
 
@@ -73,7 +76,6 @@
         <div id="thesesList"></div>
       </div>
 
-      <!-- IDENTITY PILLARS -->
       <div class="identity-pillars" id="identityPillars"></div>
 
       <!-- TRIDHARMA MINI -->
@@ -104,16 +106,16 @@
   </div>
 </section>
 
-<!-- ─── METRICS ─── -->
+<!-- METRICS (Custom — fokus pada metrik yang relevan) -->
 <section id="metrics">
   <div class="metrics-grid" id="metricsGrid"></div>
 </section>
 
-<!-- ─── PENELITIAN (DHARMA II) ─── -->
+<!-- PENELITIAN (DHARMA II) - Publikasi + HAKI -->
 <section id="research">
   <div class="section-header">
     <p class="section-eyebrow">Dharma II · Penelitian</p>
-    <h2 class="section-title">Karya <em>ilmiah & intelektual</em></h2>
+    <h2 class="section-title">Karya <em>ilmiah</em> & <em>intelektual</em></h2>
   </div>
 
   <div class="research-tabs">
@@ -121,16 +123,18 @@
     <button class="research-tab" data-target="haki-tab">HAKI · Karya Cipta</button>
   </div>
 
+  <!-- TAB: PUBLIKASI -->
   <div class="research-content active" id="pub-tab">
     <div class="pub-list" id="pubList"></div>
   </div>
 
+  <!-- TAB: HAKI -->
   <div class="research-content" id="haki-tab">
     <div class="haki-list" id="hakiList"></div>
   </div>
 </section>
 
-<!-- ─── PENGABDIAN (DHARMA III) ─── -->
+<!-- PENGABDIAN MASYARAKAT (DHARMA III) -->
 <section id="service">
   <div class="section-header">
     <p class="section-eyebrow">Dharma III · Pengabdian</p>
@@ -144,7 +148,7 @@
   <div class="service-disclaimer" id="serviceDisclaimer"></div>
 </section>
 
-<!-- ─── PENGAJARAN ─── -->
+<!-- PENGAJARAN dengan dropdown -->
 <section id="courses">
   <div class="section-header">
     <p class="section-eyebrow">Mata Kuliah</p>
@@ -155,47 +159,52 @@
     <span class="filter-label">Periode</span>
     <div class="semester-dropdown" id="semDropdown">
       <button class="dropdown-trigger" id="dropdownTrigger">
-        <span id="dropdownLabel">Memuat…</span>
+        <span id="dropdownLabel">2025/2026 Ganjil</span>
         <span class="dropdown-arrow"></span>
       </button>
-      <div class="dropdown-menu" id="dropdownMenu"></div>
+      <div class="dropdown-menu" id="dropdownMenu">
+        <!-- Diisi oleh JS -->
+      </div>
     </div>
   </div>
 
-  <div class="courses-grid" id="coursesGrid"></div>
+  <div class="courses-grid" id="coursesGrid">
+    <!-- Diisi oleh JS -->
+  </div>
 </section>
 
-<!-- ─── RIWAYAT ─── -->
+<!-- TIMELINE / PERJALANAN -->
 <section id="journey">
   <div class="section-header">
     <p class="section-eyebrow">Riwayat</p>
     <h2 class="section-title">Riwayat <em>karier & pendidikan</em></h2>
   </div>
+
   <div class="timeline" id="timeline"></div>
 </section>
 
-<!-- ─── ACHIEVEMENTS ─── -->
+<!-- ACHIEVEMENTS -->
 <section id="achievements">
   <div class="section-header">
     <p class="section-eyebrow">Engagement</p>
     <h2 class="section-title">Pencapaian & <em>kepercayaan</em></h2>
   </div>
+
   <div class="achievement-list" id="achievementList"></div>
 </section>
 
-<!-- ─── CONTACT ─── -->
+<!-- CONTACT -->
 <section id="contact">
-  <div class="section-header">
-    <p class="section-eyebrow">Hubungi</p>
-    <h2 class="section-title">Mari <em>terhubung</em></h2>
-  </div>
+  <p class="section-eyebrow" style="justify-content: center;">Mari Berkolaborasi</p>
+  <h2 class="contact-title">Terbuka untuk <em>diskusi</em><br>dan <em>kolaborasi</em>.</h2>
+  <p class="contact-sub">Untuk bimbingan mahasiswa, kolaborasi penelitian, undangan narasumber, atau diskusi seputar Matematika, Teknologi Informasi, dan edukasi — silakan menghubungi melalui kanal di bawah.</p>
 
   <div class="contact-info" id="contactInfo"></div>
 
   <a href="mailto:" id="contactEmailBtn" class="btn-primary">Kirim Surel</a>
 </section>
 
-<!-- ─── FOOTER ─── -->
+<!-- FOOTER -->
 <footer>
   <div class="footer-inner">
     <div class="footer-logo">H<em>·</em>U</div>
@@ -206,6 +215,7 @@
     <div class="footer-socials" id="footerSocials"></div>
   </div>
 </footer>
+
 
 <script src="assets/script.js"></script>
 </body>
