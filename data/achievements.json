@@ -1,11 +1,32 @@
 [
   {
+    "icon": "🛡️",
+    "title": "Auditor Bersertifikat · Audit Mutu Internal (AMI)",
+    "institutions": [
+      { "name": "LLDIKTI Wilayah IV (Jawa Barat & Banten)", "url": "https://lldikti4.kemdikbud.go.id" },
+      { "name": "Universitas Teknologi Nusantara", "url": null }
+    ],
+    "separator": " · ",
+    "year": "2024",
+    "proof_url": "proofs/achievements/2024-ami-auditor-lldikti-wilayah-4.pdf"
+  },
+  {
+    "icon": "🎙️",
+    "title": "Pemateri · \"The Importance of Science Data in Daily Life\"",
+    "institutions": [
+      { "name": "Bogor Technopreneur Community (BTECH)", "url": null }
+    ],
+    "year": "2024",
+    "proof_url": "proofs/achievements/2024-pemateri-btech-bogor.jpg"
+  },
+  {
     "icon": "🎤",
     "title": "Speaker · National Seminar on Indonesian National Education",
     "institutions": [
       { "name": "Universitas Pendidikan Indonesia (UPI) Bandung", "url": "https://upi.edu" }
     ],
-    "year": "2018–2021"
+    "year": "2018–2021",
+    "proof_url": null
   },
   {
     "icon": "🌏",
@@ -15,7 +36,8 @@
       { "name": "Universitas Padjadjaran Bandung",       "url": "https://www.unpad.ac.id" }
     ],
     "separator": " × ",
-    "year": "2018–2021"
+    "year": "2018–2021",
+    "proof_url": null
   },
   {
     "icon": "🎙️",
@@ -23,7 +45,8 @@
     "institutions": [
       { "name": "Nanyang Technological University", "url": "https://www.ntu.edu.sg" }
     ],
-    "year": "2018–2021"
+    "year": "2018–2021",
+    "proof_url": null
   },
   {
     "icon": "🏅",
@@ -31,6 +54,7 @@
     "institutions": [
       { "name": "Universitas Gadjah Mada", "url": "https://ugm.ac.id" }
     ],
-    "year": "2015"
+    "year": "2015",
+    "proof_url": null
   }
 ]

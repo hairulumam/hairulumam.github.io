@@ -17,15 +17,22 @@ hairul-portfolio/
 │   ├── script.js           ← Logic & animasi (jangan diedit)
 │   └── photo.png           ← Foto profil
 │
-└── data/                   ← ⭐ EDIT FILE-FILE DI SINI UNTUK UPDATE KONTEN
-    ├── profile.json        ← Bio, kontak, link sosial, metrics
-    ├── theses.json         ← Skripsi & tesis
-    ├── publications.json   ← Daftar publikasi ilmiah
-    ├── haki.json           ← Daftar HAKI / Karya Cipta
-    ├── services.json       ← 3 kartu Pengabdian Masyarakat
-    ├── courses.json        ← Mata kuliah per semester
-    ├── journey.json        ← Timeline karier & pendidikan
-    └── achievements.json   ← Daftar pencapaian
+├── data/                   ← ⭐ EDIT FILE-FILE DI SINI UNTUK UPDATE KONTEN
+│   ├── profile.json        ← Bio, kontak, link sosial, metrics
+│   ├── theses.json         ← Skripsi & tesis
+│   ├── publications.json   ← Daftar publikasi ilmiah
+│   ├── haki.json           ← Daftar HAKI / Karya Cipta
+│   ├── services.json       ← 3 kartu Pengabdian Masyarakat
+│   ├── courses.json        ← Mata kuliah per semester
+│   ├── journey.json        ← Timeline karier & pendidikan
+│   └── achievements.json   ← Daftar pencapaian
+│
+└── proofs/                 ← ⭐ TARUH PDF BUKTI DOKUMEN DI SINI
+    ├── publications/       ← PDF publikasi ilmiah
+    ├── haki/               ← Sertifikat HAKI
+    ├── achievements/       ← Sertifikat seminar, undangan, foto
+    ├── journey/            ← SK pengangkatan, ijazah, transkrip
+    └── services/           ← Dokumentasi kegiatan pengabdian
 ```
 
 ---
@@ -82,6 +89,67 @@ Buka `data/courses.json`:
   ]
 }
 ```
+
+---
+
+## 📎 Pasang Bukti Dokumen (Sertifikat, Ijazah, dll)
+
+Portfolio ini punya fitur **bukti dokumen** — setiap publikasi, achievement, HAKI, atau entri timeline bisa dilengkapi link ke PDF bukti. Saat ada bukti, kartu di website akan menampilkan **icon `↗` kecil di pojok** dan **garis emas tipis di sisi kiri** sebagai indikator profesional.
+
+### Cara Kerja
+
+1. **Letakkan PDF** di folder `proofs/[kategori]/` (lihat README di setiap subfolder untuk konvensi penamaan)
+2. **Buka file JSON** yang relevan di folder `data/`
+3. **Ganti `"proof_url": null`** dengan path ke file PDF
+
+### Contoh — Achievement
+
+File `data/achievements.json`:
+```json
+{
+  "icon": "🏅",
+  "title": "Best Social Activist · Gadjah Mada Award III",
+  "institutions": [...],
+  "year": "2015",
+  "proof_url": "proofs/achievements/2015-ugm-best-social-activist.pdf"
+}
+```
+
+### Pilihan Penyimpanan Bukti
+
+**A) GitHub (rekomendasi untuk dokumen kecil):**
+- Upload PDF langsung ke folder `proofs/`
+- Link otomatis `https://hairulumam.github.io/proofs/...`
+- Pro: self-contained, link permanen, domain sendiri
+- Con: Max 100MB per file, bukan untuk dokumen sensitif
+
+**B) Google Drive (untuk file besar atau yang sering diupdate):**
+- Upload ke Google Drive **pribadi** (jangan kampus, agar tidak hilang saat resign)
+- Set sharing: **"Anyone with the link → Viewer"**
+- Copy link, paste ke field `proof_url`:
+  ```json
+  "proof_url": "https://drive.google.com/file/d/XXXXXX/view"
+  ```
+- Pro: bisa file besar, mudah update
+- Con: link bergantung Google Drive aktif
+
+### Mana yang Sebaiknya Dipakai?
+
+| Jenis Bukti | Rekomendasi |
+|---|---|
+| Sertifikat resmi (PDF kecil < 5MB) | **GitHub** (`proofs/...`) |
+| Foto kegiatan resolusi tinggi | **Google Drive** |
+| Video testimoni / rekaman | **Google Drive** atau **YouTube** |
+| Folder berisi banyak file | **Google Drive** (1 link folder) |
+| Dokumen sensitif (KTP, NIDN lengkap) | **JANGAN dipublikasikan**, atau Google Drive private |
+
+### Catatan Privasi
+
+🚨 **JANGAN upload dokumen** yang mengandung:
+- Nomor identitas lengkap (KTP, NIK, NIDN full)
+- Tanda tangan basah scan resolusi tinggi
+- Data keluarga / akademis siswa
+- Email pribadi orang lain
 
 ---
 

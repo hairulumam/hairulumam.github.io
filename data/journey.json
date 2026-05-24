@@ -1,6 +1,18 @@
 [
   {
     "side": "left",
+    "kind": "structural",
+    "tag": "Struktural",
+    "year": "2024 — Sekarang",
+    "role": "Sekretaris LPPM",
+    "institution": "STMIK Tazkia",
+    "institution_url": "https://stmik.tazkia.ac.id",
+    "department": "Lembaga Penelitian dan Pengabdian Masyarakat",
+    "desc": "Sekretaris Lembaga Penelitian dan Pengabdian Masyarakat (LPPM) STMIK Tazkia. Bertanggung jawab dalam pengelolaan administrasi, koordinasi program riset, dan dokumentasi kegiatan pengabdian masyarakat institusi. SK Nomor 003-A/STMIK-TAZKIA/VIII/2024.",
+    "proof_url": "proofs/journey/2024-sk-sekretaris-lppm-stmik-tazkia.pdf"
+  },
+  {
+    "side": "right",
     "kind": "career",
     "tag": "Karier",
     "year": "2023 — Sekarang",
@@ -8,10 +20,11 @@
     "institution": "STMIK Tazkia",
     "institution_url": "https://stmik.tazkia.ac.id",
     "department": null,
-    "desc": "Mengampu mata kuliah inti komputasi matematis, algoritma, dan logika informatika di Program Studi S1 Teknik Informatika."
+    "desc": "Mengampu mata kuliah inti komputasi matematis, algoritma, dan logika informatika di Program Studi S1 Teknik Informatika.",
+    "proof_url": null
   },
   {
-    "side": "right",
+    "side": "left",
     "kind": "career",
     "tag": "Praktisi",
     "year": "2021 — 2022",
@@ -19,10 +32,11 @@
     "institution": "BALADA (Basis Layanan Terpadu Desa)",
     "institution_url": null,
     "department": "Madura",
-    "desc": "Memimpin pengembangan aplikasi BALADA, membangun tim programmer di Madura, dan menjalin kerja sama dengan pemerintah daerah lintas wilayah."
+    "desc": "Memimpin pengembangan aplikasi BALADA, membangun tim programmer di Madura, dan menjalin kerja sama dengan pemerintah daerah lintas wilayah.",
+    "proof_url": null
   },
   {
-    "side": "left",
+    "side": "right",
     "kind": "career",
     "tag": "Sosial",
     "year": "2019 — 2021",
@@ -30,10 +44,11 @@
     "institution": "Yayasan Cerebrum Edukanesia Nusantara",
     "institution_url": null,
     "department": "Bandung",
-    "desc": "Menyusun program kerja tahunan kesekretariatan, mengelola administrasi yayasan yang menaungi tempat ibadah dan sekolah."
+    "desc": "Menyusun program kerja tahunan kesekretariatan, mengelola administrasi yayasan yang menaungi tempat ibadah dan sekolah.",
+    "proof_url": null
   },
   {
-    "side": "right",
+    "side": "left",
     "kind": "career",
     "tag": "Praktisi",
     "year": "2018 — 2020",
@@ -41,10 +56,11 @@
     "institution": "PT. Cerebrum Edukanesia Nusantara",
     "institution_url": null,
     "department": "Bandung",
-    "desc": "Memimpin tim pengembangan produk pada startup teknologi pendidikan, membangun visi produk berbasis riset pengguna, hingga membangun ekosistem konten digital edukasi."
+    "desc": "Memimpin tim pengembangan produk pada startup teknologi pendidikan, membangun visi produk berbasis riset pengguna, hingga membangun ekosistem konten digital edukasi.",
+    "proof_url": null
   },
   {
-    "side": "left",
+    "side": "right",
     "kind": "education",
     "tag": "Pendidikan",
     "year": "2018 — 2021",
@@ -52,10 +68,11 @@
     "institution": "Institut Teknologi Bandung",
     "institution_url": "https://itb.ac.id",
     "department": "Program Studi Matematika",
-    "desc": "Pendalaman pada bidang matematika murni dan terapan. Aktif sebagai pembicara di forum nasional dan internasional selama masa studi."
+    "desc": "Pendalaman pada bidang matematika murni dan terapan. Aktif sebagai pembicara di forum nasional dan internasional selama masa studi.",
+    "proof_url": null
   },
   {
-    "side": "right",
+    "side": "left",
     "kind": "education",
     "tag": "Pendidikan",
     "year": "2013 — 2017",
@@ -63,6 +80,7 @@
     "institution": "Universitas Gadjah Mada",
     "institution_url": "https://ugm.ac.id",
     "department": "Program Studi Matematika",
-    "desc": "Aktif di organisasi mahasiswa sebagai Supervisor HIMATIKA UGM. Penerima penghargaan Gadjah Mada Award III sebagai Best Social Activist tahun 2015."
+    "desc": "Aktif di organisasi mahasiswa sebagai Supervisor HIMATIKA UGM. Penerima penghargaan Gadjah Mada Award III sebagai Best Social Activist tahun 2015.",
+    "proof_url": null
   }
 ]

@@ -13,7 +13,8 @@
         { "num": "4",    "lbl": "Pencipta" }
       ],
       "link": null,
-      "link_label": null
+      "link_label": null,
+      "proof_url": null
     },
     {
       "type": "youtube",
@@ -26,7 +27,8 @@
         { "num": "424",    "lbl": "Video" }
       ],
       "link": "https://youtube.com/@Hairul-Umam-ID",
-      "link_label": "Kunjungi Channel →"
+      "link_label": "Kunjungi Channel →",
+      "proof_url": null
     },
     {
       "type": "telegram",
@@ -39,7 +41,8 @@
         { "num": "24/7",   "lbl": "Diskusi" }
       ],
       "link": "https://t.me/Hairul_UmamID",
-      "link_label": "Gabung Komunitas →"
+      "link_label": "Gabung Komunitas →",
+      "proof_url": null
     }
   ],
 

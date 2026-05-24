@@ -75,6 +75,17 @@
     if (!url) return esc(name);
     return `<a href="${esc(url)}" target="_blank" rel="noopener" class="inst-link">${esc(name)}</a>`;
   }
+  // Inject overlay link absolut yang menutupi seluruh kartu (kalau proof_url ada)
+  // Kartu tetap div biasa, <a> di-overlay di atasnya. Hindari issue
+  // <a> tidak boleh membungkus elemen block-level (browser auto-correct ke pecahan)
+  function proofOverlay(proofUrl){
+    if (!proofUrl) return '';
+    return `<a href="${esc(proofUrl)}" target="_blank" rel="noopener" class="proof-overlay" title="Lihat bukti dokumen" aria-label="Lihat bukti dokumen"></a>`;
+  }
+  // Class tambahan untuk kartu yang punya bukti — supaya CSS bisa apply accent emas
+  function hasProofClass(proofUrl){
+    return proofUrl ? ' has-proof' : '';
+  }
 
   // ═══════════════════════════════════════════════════════════════════
   // ─── DATA LOADER: fetch semua JSON sekaligus ───
@@ -213,7 +224,8 @@
     const box = $('#pubList');
     if (!box) return;
     box.innerHTML = pubs.map(p => `
-      <div class="pub-item">
+      <div class="pub-item${hasProofClass(p.proof_url)}">
+        ${proofOverlay(p.proof_url)}
         <div class="pub-year">${esc(p.year)}</div>
         <div class="pub-content">
           <h4>${esc(p.title)}</h4>
@@ -228,7 +240,8 @@
     const box = $('#hakiList');
     if (!box) return;
     box.innerHTML = items.map(h => `
-      <div class="haki-item">
+      <div class="haki-item${hasProofClass(h.proof_url)}">
+        ${proofOverlay(h.proof_url)}
         <div class="haki-badge">${esc(h.badge).replace(' ', '<br>')}</div>
         <div class="haki-content">
           <h4>"${esc(h.title)}"</h4>
@@ -252,6 +265,7 @@
           </div>
         `).join('');
         const linkHtml = c.link ? `<a href="${esc(c.link)}" target="_blank" class="service-card-link">${esc(c.link_label || 'Kunjungi →')}</a>` : '';
+        const proofHtml = c.proof_url ? `<a href="${esc(c.proof_url)}" target="_blank" rel="noopener" class="service-card-proof" title="Lihat bukti dokumen">📄 Bukti dokumen <span class="ar">↗</span></a>` : '';
         return `
           <div class="service-card ${esc(c.type)}">
             <div class="service-card-icon">${c.icon}</div>
@@ -260,6 +274,7 @@
             <p class="service-card-desc">${esc(c.desc)}</p>
             <div class="service-card-stats">${statsHtml}</div>
             ${linkHtml}
+            ${proofHtml}
           </div>
         `;
       }).join('');
@@ -350,14 +365,24 @@
     const box = $('#timeline');
     if (!box) return;
     box.innerHTML = items.map(j => {
-      const tagClass = j.kind === 'education' ? 'tl-tag edu' : 'tl-tag';
-      const yearClass = j.kind === 'education' ? 'tl-year education' : 'tl-year';
-      const dotClass = j.kind === 'education' ? 'tl-dot education' : 'tl-dot';
+      let tagClass = 'tl-tag';
+      let yearClass = 'tl-year';
+      let dotClass = 'tl-dot';
+      if (j.kind === 'education') {
+        tagClass = 'tl-tag edu';
+        yearClass = 'tl-year education';
+        dotClass = 'tl-dot education';
+      } else if (j.kind === 'structural') {
+        tagClass = 'tl-tag struct';
+        yearClass = 'tl-year structural';
+        dotClass = 'tl-dot structural';
+      }
       const institutionHtml = j.department
         ? `${linkOrText(j.institution, j.institution_url)} · ${esc(j.department)}`
         : linkOrText(j.institution, j.institution_url);
       const content = `
-        <div class="tl-content">
+        <div class="tl-content${hasProofClass(j.proof_url)}">
+          ${proofOverlay(j.proof_url)}
           <div class="${tagClass}">${esc(j.tag)}</div>
           <p class="${yearClass}">${esc(j.year)}</p>
           <h3 class="tl-role">${esc(j.role)}</h3>
@@ -380,7 +405,8 @@
       const sep = a.separator || '';
       const instHtml = a.institutions.map(i => linkOrText(i.name, i.url)).join(sep);
       return `
-        <div class="achievement-item">
+        <div class="achievement-item${hasProofClass(a.proof_url)}">
+          ${proofOverlay(a.proof_url)}
           <div class="ach-icon">${a.icon}</div>
           <div class="ach-content">
             <h4>${esc(a.title)}</h4>

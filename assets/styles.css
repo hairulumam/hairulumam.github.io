@@ -709,6 +709,54 @@
     border-bottom-style: solid;
   }
 
+  /* ─── HAS-PROOF INDICATOR ─── */
+  /* Kartu yang punya bukti dokumen (proof_url): tetap div, tapi punya <a> overlay
+     absolut yang menutupinya supaya bisa diklik di mana saja, plus accent emas */
+  .has-proof {
+    border-left: 2px solid var(--gold-soft) !important;
+    transition: border-left-color 0.3s ease;
+  }
+  .has-proof:hover {
+    border-left-color: var(--gold) !important;
+  }
+  .proof-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 4;
+    border-radius: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /* Indicator ikon ↗ pojok kanan atas */
+  .proof-overlay::after {
+    content: '↗';
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 0.85rem;
+    color: var(--gold);
+    opacity: 0.55;
+    transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    pointer-events: none;
+  }
+  .has-proof:hover .proof-overlay::after {
+    opacity: 1;
+    color: var(--gold-deep);
+    transform: translate(2px, -2px);
+  }
+  /* Pastikan parent kartu position:relative supaya overlay kerja */
+  .achievement-item, .pub-item, .haki-item, .tl-content {
+    position: relative;
+  }
+  /* Pastikan link & teks lain di dalam kartu (inst-link, dll) tetap clickable di atas overlay */
+  .achievement-item a:not(.proof-overlay),
+  .pub-item a:not(.proof-overlay),
+  .haki-item a:not(.proof-overlay),
+  .tl-content a:not(.proof-overlay) {
+    position: relative;
+    z-index: 5;
+  }
+
   /* ─── PUBLICATIONS ─── */
   #publications {
     padding: 90px 56px;
@@ -939,7 +987,7 @@
     background: var(--bg-2);
   }
   .timeline {
-    max-width: 960px; margin: 0 auto; position: relative;
+    max-width: 1100px; margin: 0 auto; position: relative;
   }
   .timeline::before {
     content: '';
@@ -951,9 +999,9 @@
   }
   .timeline-item {
     display: grid;
-    grid-template-columns: 1fr 32px 1fr;
-    gap: 24px;
-    margin-bottom: 22px;
+    grid-template-columns: 1fr 24px 1fr;
+    gap: 16px;
+    margin-bottom: 16px;
     align-items: center;
     opacity: 0;
     transition: opacity 0.9s ease;
@@ -975,7 +1023,7 @@
   .tl-content {
     background: white;
     border: 1px solid var(--line);
-    padding: 14px 18px;
+    padding: 12px 20px;
     border-radius: 10px;
     transition: border-color 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease;
     box-shadow: 0 2px 8px rgba(61, 29, 140, 0.03);
@@ -989,38 +1037,45 @@
     text-align: right;
   }
   .tl-year {
-    font-size: 0.58rem; letter-spacing: 0.35em;
+    font-size: 0.56rem; letter-spacing: 0.35em;
     text-transform: uppercase; color: var(--purple);
-    margin-bottom: 5px; font-weight: 700;
+    margin-bottom: 4px; font-weight: 700;
   }
   .tl-year.education { color: var(--gold-deep); }
   .tl-role {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.05rem; font-weight: 600;
-    color: var(--text); margin-bottom: 3px;
+    font-size: 0.98rem; font-weight: 600;
+    color: var(--text); margin-bottom: 2px;
     line-height: 1.25;
   }
   .tl-institution {
-    font-size: 0.72rem; font-style: italic;
-    color: var(--purple-soft); margin-bottom: 5px; font-weight: 500;
+    font-size: 0.7rem; font-style: italic;
+    color: var(--purple-soft); margin-bottom: 4px; font-weight: 500;
   }
   .tl-desc {
-    font-size: 0.75rem; line-height: 1.55;
+    font-size: 0.72rem; line-height: 1.5;
     color: var(--text-soft);
   }
   .tl-tag {
     display: inline-block;
-    font-size: 0.5rem;
-    padding: 2px 7px;
+    font-size: 0.48rem;
+    padding: 2px 6px;
     background: var(--purple-tint);
     color: var(--purple);
     border-radius: 4px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }
   .tl-tag.edu { background: rgba(184, 145, 90, 0.12); color: var(--gold-deep); }
+  /* Tag Struktural — warna teal/biru untuk membedakan dari Karier (ungu) & Pendidikan (emas) */
+  .tl-tag.struct { background: rgba(61, 110, 140, 0.12); color: #2d5670; }
+  .tl-year.structural { color: #2d5670; }
+  .tl-dot.structural {
+    background: #3d6e8c;
+    box-shadow: 0 0 0 4px rgba(61, 110, 140, 0.18);
+  }
 
   /* ─── EDUCATOR ONLINE Section ─── */
   #educator {
@@ -1398,6 +1453,30 @@
   }
   .service-card-link:hover {
     gap: 10px;
+  }
+  .service-card-proof {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    font-size: 0.62rem;
+    color: var(--gold-deep);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    opacity: 0.75;
+    transition: opacity 0.3s ease, gap 0.3s ease;
+  }
+  .service-card-proof:hover {
+    opacity: 1;
+    gap: 8px;
+  }
+  .service-card-proof .ar {
+    color: var(--gold);
+    transition: transform 0.3s ease;
+  }
+  .service-card-proof:hover .ar {
+    transform: translate(2px, -2px);
   }
   .service-disclaimer {
     max-width: 1300px;
