@@ -383,8 +383,10 @@
       const content = `
         <div class="tl-content${hasProofClass(j.proof_url)}">
           ${proofOverlay(j.proof_url)}
-          <div class="${tagClass}">${esc(j.tag)}</div>
-          <p class="${yearClass}">${esc(j.year)}</p>
+          <div class="tl-header">
+            <span class="${tagClass}">${esc(j.tag)}</span>
+            <span class="${yearClass}">${esc(j.year)}</span>
+          </div>
           <h3 class="tl-role">${esc(j.role)}</h3>
           <p class="tl-institution">${institutionHtml}</p>
           <p class="tl-desc">${esc(j.desc)}</p>
