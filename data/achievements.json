@@ -21,23 +21,23 @@
   },
   {
     "icon": "🎤",
-    "title": "Speaker · National Seminar on Indonesian National Education",
+    "title": "Pemateri · Seminar Pendidikan Nasional \"Budaya & Pendidikan di Era Milenial\"",
     "institutions": [
       { "name": "Universitas Pendidikan Indonesia (UPI) Bandung", "url": "https://upi.edu" }
     ],
-    "year": "2018–2021",
-    "proof_url": "proofs/achievements/2018-speaker-upi-bandung.pdf.pdf"
+    "year": "2019",
+    "proof_url": "proofs/achievements/2019-pemateri-seminar-pendidikan-upi.pdf"
   },
   {
     "icon": "🌏",
     "title": "Speaker · International Collaboration",
     "institutions": [
-      { "name": "Naresuan University (Thailand)",        "url": "https://www.nu.ac.th" },
-      { "name": "Universitas Padjadjaran Bandung",       "url": "https://www.unpad.ac.id" }
+      { "name": "Naresuan University (Thailand)", "url": "https://www.nu.ac.th" },
+      { "name": "Universitas Padjadjaran Bandung", "url": "https://www.unpad.ac.id" }
     ],
     "separator": " × ",
     "year": "2018–2021",
-    "proof_url": null
+    "proof_url": "proofs/achievements/2018-speaker-naresuan-unpad.pdf"
   },
   {
     "icon": "🎙️",
@@ -46,7 +46,7 @@
       { "name": "Nanyang Technological University", "url": "https://www.ntu.edu.sg" }
     ],
     "year": "2018–2021",
-    "proof_url": null
+    "proof_url": "https://www.youtube.com/watch?v=eopsvae3B8k"
   },
   {
     "icon": "🏅",
