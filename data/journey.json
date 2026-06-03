@@ -3,6 +3,18 @@
     "side": "left",
     "kind": "structural",
     "tag": "Struktural",
+    "year": "2024 — 2027",
+    "role": "Koordinator Program Studi Teknik Informatika",
+    "institution": "STMIK Tazkia",
+    "institution_url": "https://stmik.tazkia.ac.id",
+    "department": "Kaprodi Teknik Informatika",
+    "desc": "Memimpin penyelenggaraan akademik dan administrasi Program Studi Teknik Informatika, mencakup koordinasi pendidikan, pengajaran, penelitian, dan pengabdian masyarakat di tingkat program studi. SK Nomor 007/SK-SDM/STMIK-TZK/II/2024.",
+    "proof_url": "proofs/journey/2024-sk-koordinator-prodi-ti-stmik-tazkia.pdf"
+  },
+  {
+    "side": "right",
+    "kind": "structural",
+    "tag": "Struktural",
     "year": "2024 — Sekarang",
     "role": "Sekretaris LPPM",
     "institution": "STMIK Tazkia",
@@ -12,7 +24,7 @@
     "proof_url": "proofs/journey/2024-sk-sekretaris-lppm-stmik-tazkia.pdf"
   },
   {
-    "side": "right",
+    "side": "left",
     "kind": "career",
     "tag": "Karier",
     "year": "2023 — Sekarang",
@@ -24,7 +36,7 @@
     "proof_url": null
   },
   {
-    "side": "left",
+    "side": "right",
     "kind": "career",
     "tag": "Praktisi",
     "year": "2021 — 2022",
@@ -36,7 +48,7 @@
     "proof_url": null
   },
   {
-    "side": "right",
+    "side": "left",
     "kind": "career",
     "tag": "Sosial",
     "year": "2019 — 2021",
@@ -48,7 +60,7 @@
     "proof_url": null
   },
   {
-    "side": "left",
+    "side": "right",
     "kind": "career",
     "tag": "Praktisi",
     "year": "2018 — 2020",
@@ -60,7 +72,7 @@
     "proof_url": null
   },
   {
-    "side": "right",
+    "side": "left",
     "kind": "education",
     "tag": "Pendidikan",
     "year": "2018 — 2021",
@@ -72,7 +84,7 @@
     "proof_url": null
   },
   {
-    "side": "left",
+    "side": "right",
     "kind": "education",
     "tag": "Pendidikan",
     "year": "2013 — 2017",
