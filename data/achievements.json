@@ -1,5 +1,14 @@
 [
   {
+    "icon": "⚖️",
+    "title": "Juri · Lomba Start Up Challenge",
+    "institutions": [
+      { "name": "Bogor Technopreneur Community (BTECH)", "url": null }
+    ],
+    "year": "2026",
+    "proof_url": "proofs/achievements/2026-juri-startup-challenge-btech.pdf"
+  },
+  {
     "icon": "🛡️",
     "title": "Auditor Bersertifikat · Audit Mutu Internal (AMI)",
     "institutions": [
