@@ -1,0 +1,50 @@
+{
+  "intro": "Komitmen pengabdian diwujudkan melalui pengembangan sistem informasi yang bermanfaat langsung bagi komunitas, serta penyebaran pengetahuan secara terbuka melalui kanal digital edukasi yang menjangkau ribuan pelajar di seluruh Indonesia.",
+
+  "cards": [
+    {
+      "type": "tech",
+      "icon": "🕌",
+      "tag": "Karya Cipta · 2026",
+      "title": "Sistem Informasi Manajemen Masjid",
+      "desc": "Pengembangan sistem informasi berbasis web responsif untuk tata kelola dan media informasi publik masjid. Terdaftar resmi sebagai Karya Cipta di Kementerian Hukum RI.",
+      "stats": [
+        { "num": "HAKI", "lbl": "Terdaftar" },
+        { "num": "4",    "lbl": "Pencipta" }
+      ],
+      "link": null,
+      "link_label": null,
+      "proof_url": null
+    },
+    {
+      "type": "youtube",
+      "icon": "▶",
+      "tag": "Kanal Edukasi",
+      "title": "YouTube · Hairul Umam ID",
+      "desc": "Kanal edukasi terbuka yang membagikan materi matematika dan persiapan ujian (TPA, UTBK, CPNS, BUMN, Psikotes) secara gratis bagi pelajar dan pencari kerja Indonesia.",
+      "stats": [
+        { "num": "28000+", "lbl": "Subscriber" },
+        { "num": "424",    "lbl": "Video" }
+      ],
+      "link": "https://youtube.com/@Hairul-Umam-ID",
+      "link_label": "Kunjungi Channel →",
+      "proof_url": null
+    },
+    {
+      "type": "telegram",
+      "icon": "✈",
+      "tag": "Komunitas Belajar",
+      "title": "Komunitas Telegram",
+      "desc": "Membangun ruang diskusi dan pembelajaran terbuka di Telegram, tempat ribuan pelajar bertanya, berdiskusi, dan saling membantu dalam memahami materi matematika dan persiapan ujian.",
+      "stats": [
+        { "num": "33000+", "lbl": "Anggota" },
+        { "num": "24/7",   "lbl": "Diskusi" }
+      ],
+      "link": "https://t.me/Hairul_UmamID",
+      "link_label": "Gabung Komunitas →",
+      "proof_url": null
+    }
+  ],
+
+  "disclaimer": "<strong>Catatan:</strong> Kegiatan di atas mencerminkan kontribusi nyata kepada masyarakat melalui pengembangan teknologi tepat guna dan edukasi terbuka. Program pengabdian masyarakat formal sesuai standar Tridharma Perguruan Tinggi sedang dikembangkan dan akan diperbarui pada laman ini secara berkala."
+}

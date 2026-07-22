@@ -1,0 +1,58 @@
+[
+  {
+    "icon": "⚖️",
+    "title": "Juri · Lomba Start Up Challenge",
+    "institutions": [
+      { "name": "Bogor Technopreneur Community (BTECH)", "url": null }
+    ],
+    "year": "2026",
+    "proof_url": "proofs/achievements/2026-juri-startup-challenge-btech.pdf"
+  },
+  {
+    "icon": "🎙️",
+    "title": "Pemateri · \"The Importance of Science Data in Daily Life\"",
+    "institutions": [
+      { "name": "Bogor Technopreneur Community (BTECH)", "url": null }
+    ],
+    "year": "2024",
+    "proof_url": "proofs/achievements/2024-pemateri-btech-bogor.jpg"
+  },
+  {
+    "icon": "🎤",
+    "title": "Pemateri · Seminar Pendidikan Nasional \"Budaya & Pendidikan di Era Milenial\"",
+    "institutions": [
+      { "name": "Universitas Pendidikan Indonesia (UPI) Bandung", "url": "https://upi.edu" }
+    ],
+    "year": "2019",
+    "proof_url": "proofs/achievements/2019-pemateri-seminar-pendidikan-upi.pdf"
+  },
+  {
+    "icon": "🌏",
+    "title": "Speaker · International Collaboration",
+    "institutions": [
+      { "name": "Naresuan University (Thailand)", "url": "https://www.nu.ac.th" },
+      { "name": "Universitas Padjadjaran Bandung", "url": "https://www.unpad.ac.id" }
+    ],
+    "separator": " × ",
+    "year": "2018–2021",
+    "proof_url": "proofs/achievements/2018-speaker-naresuan-unpad.pdf"
+  },
+  {
+    "icon": "🎙️",
+    "title": "Exclusive Interview · Doctoral Student NTU Singapore",
+    "institutions": [
+      { "name": "Nanyang Technological University", "url": "https://www.ntu.edu.sg" }
+    ],
+    "year": "2018–2021",
+    "proof_url": "https://www.youtube.com/watch?v=eopsvae3B8k"
+  },
+  {
+    "icon": "🏅",
+    "title": "Best Social Activist · Gadjah Mada Award III",
+    "institutions": [
+      { "name": "Universitas Gadjah Mada", "url": "https://ugm.ac.id" }
+    ],
+    "year": "2015",
+    "proof_url": null
+  }
+]

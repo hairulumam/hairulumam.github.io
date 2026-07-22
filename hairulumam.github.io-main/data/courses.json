@@ -1,0 +1,28 @@
+[
+  {
+    "id": "2025-2026-ganjil",
+    "label": "2025/2026 Ganjil",
+    "active": true,
+    "mataKuliah": [
+      { "kode": "TIK25", "nama": "Matematika Dasar Teknik", "sks": 2 },
+      { "kode": "TIK25", "nama": "Matematika Diskrit",       "sks": 3 },
+      { "kode": "TIK24", "nama": "Pengantar Kriptografi",    "sks": 3 },
+      { "kode": "TIK24", "nama": "Sistem Basis Data",        "sks": 3 }
+    ]
+  },
+  {
+    "id": "2024-2025-genap",
+    "label": "2024/2025 Genap",
+    "mataKuliah": [
+      { "kode": "TIK24", "nama": "Aljabar Linier", "sks": 3 },
+      { "kode": "SIF24", "nama": "Aljabar Linier", "sks": 3 }
+    ]
+  },
+  {
+    "id": "2024-2025-ganjil",
+    "label": "2024/2025 Ganjil",
+    "mataKuliah": [
+      { "kode": "TIK24", "nama": "Matematika Dasar Teknik", "sks": 2 }
+    ]
+  }
+]
