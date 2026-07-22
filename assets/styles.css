@@ -1512,6 +1512,10 @@
     padding: 72px 56px;
     background: var(--bg-2);
   }
+  #certifications {
+    padding: 72px 56px;
+    background: var(--bg);
+  }
   .achievement-list {
     max-width: 850px;
     margin: 0 auto;
@@ -1683,7 +1687,7 @@
     nav.scrolled { padding: 14px 24px; }
     .nav-links { display: none; }
     .nav-cta { padding: 10px 18px; font-size: 0.62rem; }
-    #about, #publications, #journey, #courses, #contact, #educator, #achievements { padding: 80px 24px; }
+    #about, #publications, #journey, #courses, #contact, #educator, #achievements, #certifications { padding: 80px 24px; }
     #metrics { padding: 60px 24px; }
     .about-grid { grid-template-columns: 1fr; gap: 50px; }
     .about-photo-wrap { position: static; max-width: 320px; margin: 0 auto; }

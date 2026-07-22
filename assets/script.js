@@ -91,7 +91,7 @@
   // ─── DATA LOADER: fetch semua JSON sekaligus ───
   // ═══════════════════════════════════════════════════════════════════
   async function loadData(){
-    const files = ['profile', 'theses', 'publications', 'haki', 'services', 'courses', 'journey', 'achievements'];
+    const files = ['profile', 'theses', 'publications', 'haki', 'services', 'courses', 'journey', 'achievements', 'certifications'];
     const results = await Promise.all(
       files.map(f => fetch(`data/${f}.json`).then(r => {
         if (!r.ok) throw new Error(`Gagal memuat data/${f}.json (status ${r.status})`);
@@ -400,8 +400,8 @@
     }).join('');
   }
 
-  function renderAchievements(items){
-    const box = $('#achievementList');
+  function renderAchievements(items, selector){
+    const box = $(selector || '#achievementList');
     if (!box) return;
     box.innerHTML = items.map(a => {
       const sep = a.separator || '';
@@ -799,6 +799,7 @@
       renderCoursesSection(data.courses);
       renderJourney(data.journey);
       renderAchievements(data.achievements);
+      renderAchievements(data.certifications, '#certificationList');
 
       // Interactivity setelah konten ada
       startGlobalInteractivity();
