@@ -1,4 +1,15 @@
-[
+[{
+    "icon": "📢",
+    "title": "Digital Marketing Certified",
+    "institutions": [
+      {
+        "name": "HubSpot Academy",
+        "url": "https://academy.hubspot.com"
+      }
+    ],
+    "year": "2026",
+    "proof_url": "https://app-na2.hubspot.com/academy/achievements/ttnbs9lg/en/1/hairul-umam/digital-marketing"
+  },
   {
     "icon": "🐍",
     "title": "Python Course Certificate",
