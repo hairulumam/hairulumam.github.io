@@ -1,4 +1,17 @@
-[{
+[
+    {
+    "icon": "🤖",
+    "title": "Getting Started with Generative AI",
+    "institutions": [
+      {
+        "name": "IBM SkillsBuild",
+        "url": "https://skillsbuild.org"
+      }
+    ],
+    "year": "2026",
+    "proof_url": "proofs/GettingStartedwithGenerativeAI_Badge.pdf"
+  },
+    {
     "icon": "📢",
     "title": "Digital Marketing Certified",
     "institutions": [
