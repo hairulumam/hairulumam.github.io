@@ -1,4 +1,16 @@
 [{
+    "icon": "🎓",
+    "title": "AI Fluency for Educators",
+    "institutions": [
+      {
+        "name": "Anthropic Academy",
+        "url": "https://anthropic.skilljar.com"
+      }
+    ],
+    "year": "2026",
+    "proof_url": "https://verify.skilljar.com/c/sqauh26o6955"
+  },
+  {
   "icon": "🤖",
   "title": "Getting Started with Generative AI",
   "institutions": [
