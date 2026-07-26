@@ -1,4 +1,5 @@
-[{
+[
+  {
     "icon": "🎓",
     "title": "AI Fluency for Educators",
     "institutions": [
@@ -11,18 +12,18 @@
     "proof_url": "https://verify.skilljar.com/c/sqauh26o6955"
   },
   {
-  "icon": "🤖",
-  "title": "Getting Started with Generative AI",
-  "institutions": [
-    {
-      "name": "IBM SkillsBuild",
-      "url": "https://skillsbuild.org"
-    }
-  ],
-  "year": "2026",
-  "proof_url": "proofs/achievements/GettingStartedwithGenerativeAI_Badge.pdf"
-},
-    {
+    "icon": "🤖",
+    "title": "Getting Started with Generative AI",
+    "institutions": [
+      {
+        "name": "IBM SkillsBuild",
+        "url": "https://skillsbuild.org"
+      }
+    ],
+    "year": "2026",
+    "proof_url": "proofs/achievements/GettingStartedwithGenerativeAI_Badge.pdf"
+  },
+  {
     "icon": "📢",
     "title": "Digital Marketing Certified",
     "institutions": [
@@ -50,7 +51,10 @@
     "icon": "📊",
     "title": "Google Ads Search Certification",
     "institutions": [
-      { "name": "Google · Skillshop", "url": "https://skillshop.exceedlms.com" }
+      {
+        "name": "Google · Skillshop",
+        "url": "https://skillshop.exceedlms.com"
+      }
     ],
     "year": "2026",
     "proof_url": "https://skillshop.credential.net/dfed3582-a1f7-45c9-9775-0d92006511ad#acc.fkXaPQMx"
@@ -59,7 +63,10 @@
     "icon": "🎓",
     "title": "Pendidik Tersertifikasi Gemini",
     "institutions": [
-      { "name": "Google for Education", "url": "https://edu.google.com" }
+      {
+        "name": "Google for Education",
+        "url": "https://edu.google.com"
+      }
     ],
     "year": "2026",
     "proof_url": "https://edu.google.accredible.com/f3b778d9-860c-4e92-a003-eaee2367e4f0"
@@ -68,8 +75,14 @@
     "icon": "🛡️",
     "title": "Auditor Bersertifikat · Audit Mutu Internal (AMI)",
     "institutions": [
-      { "name": "LLDIKTI Wilayah IV (Jawa Barat & Banten)", "url": "https://lldikti4.kemdikbud.go.id" },
-      { "name": "Universitas Teknologi Nusantara", "url": null }
+      {
+        "name": "LLDIKTI Wilayah IV (Jawa Barat & Banten)",
+        "url": "https://lldikti4.kemdikbud.go.id"
+      },
+      {
+        "name": "Universitas Teknologi Nusantara",
+        "url": null
+      }
     ],
     "separator": " · ",
     "year": "2024",
