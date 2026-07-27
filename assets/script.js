@@ -41,6 +41,14 @@
       <rect x="70" y="40" width="80" height="56" rx="8" fill="#c93838" opacity="0.85"/>
       <polygon points="100,60 100,82 122,71" fill="white"/>
     </svg>`},
+    sertifikasi: { tint:'#faf3e5', accent:'#c79a3e', svg:`<svg viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;display:block;">
+      <defs><linearGradient id="bg-sert" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#faf3e5"/><stop offset="100%" stop-color="#ecd9a8"/></linearGradient></defs>
+      <rect width="220" height="140" fill="url(#bg-sert)"/>
+      <circle cx="110" cy="58" r="26" fill="none" stroke="#c79a3e" stroke-width="2.5" opacity="0.9"/>
+      <circle cx="110" cy="58" r="19" fill="none" stroke="#c79a3e" stroke-width="1" opacity="0.5"/>
+      <path d="M 103 55 l 5 5 l 10 -11" fill="none" stroke="#c79a3e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 98 80 L 92 104 L 104 96 L 110 106 L 116 96 L 128 104 L 122 80 Z" fill="#c79a3e" opacity="0.85"/>
+    </svg>`},
     riwayat: { tint:'#eef0e6', accent:'#6b7a4a', svg:`<svg viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="width:100%;height:100%;display:block;">
       <defs><linearGradient id="bg-riw" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#eef0e6"/><stop offset="100%" stop-color="#c9d1b4"/></linearGradient></defs>
       <rect width="220" height="140" fill="url(#bg-riw)"/>
@@ -61,8 +69,9 @@
     { menu:'Profil',     target:'#about',    data:COVERS.profil },
     { menu:'Pengajaran', target:'#courses',  data:COVERS.pengajaran },
     { menu:'Penelitian', target:'#research', data:COVERS.publikasi },
-    { menu:'Pengabdian', target:'#service',  data:COVERS.educator },
-    { menu:'Riwayat',    target:'#journey',  data:COVERS.riwayat },
+    { menu:'Pengabdian',  target:'#service',        data:COVERS.educator },
+    { menu:'Sertifikasi', target:'#certifications', data:COVERS.sertifikasi },
+    { menu:'Riwayat',     target:'#journey',        data:COVERS.riwayat },
   ];
 
   // ─── HELPERS ────────────────────────────────────────────────────────
