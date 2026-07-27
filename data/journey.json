@@ -8,7 +8,7 @@
     "institution": "STMIK Tazkia",
     "institution_url": "https://stmik.tazkia.ac.id",
     "department": "Kaprodi Teknik Informatika",
-    "desc": "Memimpin penyelenggaraan akademik dan administrasi Program Studi Teknik Informatika, mencakup koordinasi pendidikan, pengajaran, penelitian, dan pengabdian masyarakat di tingkat program studi. SK Nomor 007/SK-SDM/STMIK-TZK/II/2024.",
+    "desc": "Memimpin penyelenggaraan akademik program studi.",
     "proof_url": "proofs/journey/2024-sk-koordinator-prodi-ti-stmik-tazkia.pdf"
   },
   {
@@ -19,8 +19,8 @@
     "role": "Sekretaris LPPM",
     "institution": "STMIK Tazkia",
     "institution_url": "https://stmik.tazkia.ac.id",
-    "department": "Lembaga Penelitian dan Pengabdian Masyarakat",
-    "desc": "Sekretaris Lembaga Penelitian dan Pengabdian Masyarakat (LPPM) STMIK Tazkia. Bertanggung jawab dalam pengelolaan administrasi, koordinasi program riset, dan dokumentasi kegiatan pengabdian masyarakat institusi. SK Nomor 003-A/STMIK-TAZKIA/VIII/2024.",
+    "department": "Lembaga Penelitian & Pengabdian Masyarakat",
+    "desc": "Koordinasi program riset dan pengabdian institusi.",
     "proof_url": "proofs/journey/2024-sk-sekretaris-lppm-stmik-tazkia.pdf"
   },
   {
@@ -32,7 +32,7 @@
     "institution": "STMIK Tazkia",
     "institution_url": "https://stmik.tazkia.ac.id",
     "department": null,
-    "desc": "Mengampu mata kuliah inti komputasi matematis, algoritma, dan logika informatika di Program Studi S1 Teknik Informatika.",
+    "desc": null,
     "proof_url": null
   },
   {
@@ -44,7 +44,7 @@
     "institution": "BALADA (Basis Layanan Terpadu Desa)",
     "institution_url": null,
     "department": "Madura",
-    "desc": "Memimpin pengembangan aplikasi BALADA, membangun tim programmer di Madura, dan menjalin kerja sama dengan pemerintah daerah lintas wilayah.",
+    "desc": "Memimpin pengembangan aplikasi layanan desa.",
     "proof_url": null
   },
   {
@@ -56,7 +56,7 @@
     "institution": "Yayasan Cerebrum Edukanesia Nusantara",
     "institution_url": null,
     "department": "Bandung",
-    "desc": "Menyusun program kerja tahunan kesekretariatan, mengelola administrasi yayasan yang menaungi tempat ibadah dan sekolah.",
+    "desc": null,
     "proof_url": null
   },
   {
@@ -68,7 +68,7 @@
     "institution": "PT. Cerebrum Edukanesia Nusantara",
     "institution_url": null,
     "department": "Bandung",
-    "desc": "Memimpin tim pengembangan produk pada startup teknologi pendidikan, membangun visi produk berbasis riset pengguna, hingga membangun ekosistem konten digital edukasi.",
+    "desc": "Memimpin pengembangan produk startup edukasi.",
     "proof_url": null
   },
   {
@@ -80,7 +80,7 @@
     "institution": "Institut Teknologi Bandung",
     "institution_url": "https://itb.ac.id",
     "department": "Program Studi Matematika",
-    "desc": "Pendalaman pada bidang matematika murni dan terapan. Aktif sebagai pembicara di forum nasional dan internasional selama masa studi.",
+    "desc": null,
     "proof_url": null
   },
   {
@@ -92,7 +92,7 @@
     "institution": "Universitas Gadjah Mada",
     "institution_url": "https://ugm.ac.id",
     "department": "Program Studi Matematika",
-    "desc": "Aktif di organisasi mahasiswa sebagai Supervisor HIMATIKA UGM. Penerima penghargaan Gadjah Mada Award III sebagai Best Social Activist tahun 2015.",
+    "desc": "Gadjah Mada Award III · Best Social Activist 2015.",
     "proof_url": null
   }
 ]
