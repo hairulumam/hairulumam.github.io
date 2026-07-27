@@ -389,7 +389,7 @@
           </div>
           <h3 class="tl-role">${esc(j.role)}</h3>
           <p class="tl-institution">${institutionHtml}</p>
-          <p class="tl-desc">${esc(j.desc)}</p>
+         ${j.desc ? `<p class="tl-desc">${esc(j.desc)}</p>` : ''}
         </div>
       `;
       if (j.side === 'left') {
