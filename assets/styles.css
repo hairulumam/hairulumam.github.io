@@ -1516,6 +1516,20 @@
     padding: 72px 56px;
     background: var(--bg);
   }
+/* Sertifikasi — grid 2 kolom, kartu ringkas */
+  #certificationList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  #certificationList .achievement-item {
+    grid-template-columns: 40px 1fr auto;
+  }
+  @media (max-width: 900px) {
+    #certificationList { grid-template-columns: 1fr; }
+  }
   .achievement-list {
     max-width: 850px;
     margin: 0 auto;
