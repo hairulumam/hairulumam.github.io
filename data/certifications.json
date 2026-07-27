@@ -1,5 +1,17 @@
 [
   {
+    "icon": "🔐",
+    "title": "Ethical Hacker",
+    "institutions": [
+      {
+        "name": "Cisco Networking Academy",
+        "url": "https://www.netacad.com"
+      }
+    ],
+    "year": "2026",
+    "proof_url": "proofs/achievements/EthicalHacker2026.pdf"
+  },
+  {
     "icon": "🎓",
     "title": "AI Fluency for Educators",
     "institutions": [
