@@ -1,4 +1,16 @@
 [
+ {
+  "icon": "🎓",
+  "title": "Certified Artificial Intelligence Program Manager (C|AIPM)",
+  "institutions": [
+    {
+      "name": "EC-Council",
+      "url": "https://www.eccouncil.org/"
+    }
+  ],
+  "year": "2026",
+  "proof_url": "proofs/achievements/2026-ECC-CAIPM-Certificate.pdf"
+},
   {
     "icon": "⚖️",
     "title": "Juri · Lomba Start Up Challenge",
